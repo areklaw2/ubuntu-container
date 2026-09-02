@@ -1,0 +1,19 @@
+{
+  "name": "ubuntu-arm64-re",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
+      "extensions": [
+        "ms-vscode.cpptools",
+        "webfreak.debug"
+      ]
+    }
+  }
+}

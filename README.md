@@ -41,3 +41,9 @@ docker run -it --name ubuntu-arm64 --hostname ubuntu-arm64 -v $(pwd):/root/work 
 ```
 
 Note: `--rm` deletes the container on exit — omit it if you want the container to persist across sessions.
+
+## VSCode (Dev Containers)
+
+`.devcontainer/devcontainer.json` builds this same Dockerfile and mounts the repo at `/workspaces/ubuntu-container`.
+
+Cmd+Shift+P → **Dev Containers: Reopen in Container**. Ships with C/C++ (`ms-vscode.cpptools`) and Native Debug (`webfreak.debug`, works with `gdb-multiarch`) extensions.
