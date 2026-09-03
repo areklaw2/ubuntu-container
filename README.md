@@ -1,6 +1,8 @@
 # ubuntu-container
 
-Ubuntu-based container with an ARM64 reverse-engineering toolchain (gcc-aarch64, binutils, qemu-user, gdb-multiarch), a configured zsh (oh-my-zsh, starship prompt, autosuggestions + syntax-highlighting plugins), and LazyVim (with `asm-lsp` + treesitter pre-installed for `.s` files). Based on [mariokartwii.com/arm64 ch2](https://mariokartwii.com/arm64).
+Ubuntu-based container with an ARM64 reverse-engineering toolchain (gcc-aarch64, binutils, qemu-user, gdb-multiarch), a configured zsh (oh-my-zsh, starship prompt, autosuggestions + syntax-highlighting plugins), and LazyVim (with `asm-lsp` + treesitter pre-installed for `.s` files).
+
+Built based on and for following along with [AArch64/ARM64 Full Beginner's Assembly Tutorial](https://mariokartwii.com/arm64/index.html).
 
 ## Build
 
