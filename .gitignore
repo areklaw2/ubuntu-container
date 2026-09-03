@@ -1,0 +1,12 @@
+# build output
+*.o
+*.out
+a.out
+
+# gdb
+.gdb_history
+
+# nvim swap/undo/session
+*.swp
+*.swo
+.netrwhist

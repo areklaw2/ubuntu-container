@@ -5,6 +5,9 @@
     "context": ".."
   },
   "remoteUser": "root",
+  "mounts": [
+    "source=${localEnv:HOME}/.gitconfig,target=/root/.gitconfig,type=bind,consistency=cached"
+  ],
   "customizations": {
     "vscode": {
       "settings": {
